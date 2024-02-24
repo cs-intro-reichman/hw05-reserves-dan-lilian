@@ -165,7 +165,6 @@ public class GameOfLife {
 				System.out.printf("%4s", arr[i][j]);
 			}
 			System.out.println();
-			System.out.println();
 		}
 	}
 		
@@ -202,7 +201,7 @@ public class GameOfLife {
 		StdDraw.pause(100); 
 	}
 
-	
+
 	public static void show1(int[][] board) {
 		StdDraw.setCanvasSize(900, 900);
 		int rows = board.length;
